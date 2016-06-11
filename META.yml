@@ -1,0 +1,36 @@
+---
+abstract: 'The great new CardGame::Match!'
+author:
+  - 'Mirela Iclodean <imirela@cpan.org>'
+build_requires:
+  Test::Exception: '0'
+  Test::More: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.150005'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: CardGame-Match
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Carp: '0'
+  Class::Load: '0'
+  Data::Dump: '0'
+  FindBin::libs: '0'
+  Getopt::Long: '0'
+  List::Util: '0'
+  Moose: '0'
+  MooseX::Types::Moose: '0'
+  Pod::Usage: '0'
+  mro: '0'
+  namespace::autoclean: '0'
+  perl: '5.006'
+  'true': '0'
+version: '0.01'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.012'

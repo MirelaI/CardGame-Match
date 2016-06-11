@@ -1,0 +1,28 @@
+Changes
+bin/match_game.pl
+lib/CardGame/Match.pm
+lib/CardGame/Model/Card.pm
+lib/CardGame/Model/Player.pm
+lib/CardGame/Model/Rank.pm
+lib/CardGame/Model/Set/Deck.pm
+lib/CardGame/Model/Set/Hand.pm
+lib/CardGame/Model/Set/Pile.pm
+lib/CardGame/Model/Set.pm
+lib/CardGame/Types/Card.pm
+lib/CardGame/Types/Utils.pm
+t/model/class/Test/Card.pm
+t/model/class/Test/Set/Deck.pm
+t/model/class/Test/Set/Hand.pm
+t/model/class/Test/Set/Pile.pm
+Makefile.PL
+MANIFEST			This list of files
+README
+t/00-load.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
+t/model/run_test_class.t
+t/packages.t
+xt/boilerplate.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
