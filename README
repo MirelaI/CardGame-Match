@@ -21,7 +21,7 @@ To install this module, run the following commands:
 	make test
 	make install
 
-To simulate a game between to or more players please run 
+To simulate a game between two or more players please run 
 
     perl ./bin/match_game.pl -d 2 -p 2
 
