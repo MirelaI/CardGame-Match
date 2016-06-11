@@ -21,7 +21,6 @@ CardGame::Model::Set::Hand
 
 Represents a card hand of a player. The builder can be extended 
 so the cards in the pile will be split between players. 
-But for this game, this should just be enough
 
 =cut
 

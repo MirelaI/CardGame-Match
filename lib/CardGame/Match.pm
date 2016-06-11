@@ -20,8 +20,6 @@ use CardGame::Types::Utils qw(
 use CardGame::Model::Player;
 use CardGame::Model::Set::Pile;
 
-use true;
-
 
 =head1 NAME
 
@@ -53,7 +51,7 @@ Quick summary of what the module does.
 
 =head2 number_of_players
 
-Int representing the number of players that we want
+Integer representing the number of players that we want
 to play the current game
 
 =cut
@@ -66,7 +64,7 @@ has number_of_players => (
 
 =head2 number_of_decks
 
-Int representing number of decks necessary for the current game
+Integer representing number of decks necessary for the current game
 
 =cut
 
@@ -153,9 +151,9 @@ sub _build_pile {
 
 =head2 play
 
-Algorithm for the match game. This can be significantly impoved, but 
-I've tried to follow the basic rule of the game. take card from the top
-of the top of the pile and compare it to the previous one and so on...
+Algorithm for the match game. 
+#TODO: improve the algorithm. How it works: take the top card from the pile 
+and compare it to the previous one and so on...
 
 =cut
 
@@ -224,7 +222,7 @@ sub play {
             # I am not sure what is the ending condition if there
             # are still a hand of cards that have no match
             # so I am just gonna assign the last ones 
-            # to a random user...
+            # to a random user...cuz it is just a game :)
             } else {
                 $self->assign_cards_to_random_player($players,\@hand);
             }         
@@ -357,4 +355,4 @@ CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THE PACKAGE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-=cut
+=cut:
